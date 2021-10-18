@@ -50,8 +50,6 @@ Found creative tab: forbidden
 Found creative tab: mobcrystal
 Found creative tab: forestry
 Found creative tab: transportation
-Found creative tab: GalacticraftItems
-Found creative tab: GalacticraftBlocks
 Found creative tab: Genetics
 Found creative tab: Nuclear Control 2
 Found creative tab: ImmersiveEngineering
@@ -107,18 +105,9 @@ Found creative tab: thermalfoundation.creativeTab
 Found creative tab: thermalfoundation.creativeTabArmor
 Found creative tab: thermalfoundation.creativeTabTools
 Found creative tab: twilightForest
-Found creative tab: aether_material
-Found creative tab: aether_blocks
-Found creative tab: aether_misc
-Found creative tab: aether_accessories
-Found creative tab: aether_food
-Found creative tab: aether_weapons
-Found creative tab: aether_tools
-Found creative tab: aether_armor
 Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
-Found creative tab: atum
 Found creative tab: tabWoodChiselBlocks
 Found creative tab: tabStairChiselBlocks
 Found creative tab: tabModdedChiselBlocks
@@ -126,16 +115,6 @@ Found creative tab: tabStoneChiselBlocks
 Found creative tab: tabOtherChiselBlocks
 Found creative tab: tabChisel
 Found creative tab: tabMetalChiselBlocks
-Found creative tab: Blocks
-Found creative tab: Utility
-Found creative tab: Vethea
-Found creative tab: Herbalism
-Found creative tab: Armor
-Found creative tab: Tools
-Found creative tab: Swords
-Found creative tab: Ranged
-Found creative tab: Materials
-Found creative tab: Spawner
 Found creative tab: Extra_Cells
 Found creative tab: funkylocomotion
 Found creative tab: bdew.gendustry
@@ -147,40 +126,6 @@ Found creative tab: tabHarvestCraft3
 Found creative tab: tabHarvestCraft
 Found creative tab: headcrumbs
 Found creative tab: immersiveintegration
-Found creative tab: jurassicraft.syringesEggs
-Found creative tab: jurassicraft.itemsFood
-Found creative tab: jurassicraft.items
-Found creative tab: jurassicraft.dnas
-Found creative tab: jurassicraft.spawnEggs
-Found creative tab: jurassicraft.blocks
-Found creative tab: WeaponsTab
-Found creative tab: GenerationTab
-Found creative tab: ArmorTab
-Found creative tab: BowsTab
-Found creative tab: SlabTab
-Found creative tab: ToolsTab
-Found creative tab: MineralsTab
-Found creative tab: SwordsTab
-Found creative tab: MiscTab
-Found creative tab: TablesTab
-Found creative tab: FurnitureTab
-Found creative tab: CannonsTab
-Found creative tab: BossesTab
-Found creative tab: AncientTab
-Found creative tab: StaffTab
-Found creative tab: GreatbladesTab
-Found creative tab: SnipersTab
-Found creative tab: VulcanesTab
-Found creative tab: FarmingTab
-Found creative tab: FishTab
-Found creative tab: ThrowablesTab
-Found creative tab: RunesTab
-Found creative tab: ArchergunTab
-Found creative tab: TotemsTab
-Found creative tab: ScythesTab
-Found creative tab: LightingTab
-Found creative tab: SoulTab
-Found creative tab: DecorativeBlocksTab
 Found creative tab: props.Main
 Found creative tab: search
 Found creative tab: RfTools
@@ -189,14 +134,6 @@ Found creative tab: runicdungeons
 Found creative tab: tabSimplyJetpacks
 Found creative tab: tabSpringboards
 Found creative tab: ThaumicEnergistics
-Found creative tab: thebetweenlands.block
-Found creative tab: thebetweenlands.herbLore
-Found creative tab: thebetweenlands.plants
-Found creative tab: thebetweenlands.special
-Found creative tab: thebetweenlands.item
-Found creative tab: thebetweenlands.gear
-Found creative tab: drinks
-Found creative tab: Weather2
 Found creative tab: tabWitchery
 Setting up ForgeMicroblock Library...
 Setting up ExtraUtilities Library...
@@ -209,17 +146,17 @@ override called. Params: ThermalExpansion, florb, 0,1
 Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ImmersiveEngineering:metalDecoration_5
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:metalDecoration_5
+getRandomMaterial called. Returned: ImmersiveEngineering:stoneDecoration_1
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:stoneDecoration_1
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: ImmersiveEngineering:metalDecoration_5
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ImmersiveEngineering:metalDecoration_5
+getRandomMaterial called. Returned: ImmersiveEngineering:storage_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ImmersiveEngineering:storage_10
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 4785
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3121
+getFacadesSize called. Returned: 3423
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1248
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -532,8 +469,8 @@ Found ItemStack BiblioWoodsNatura:seatBack5. 64xitem.seatBack@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 3140
-override called. Params: appliedenergistics2, item.ItemFacade, 1781
+getNumberOfTypes called. Returned: 2317
+override called. Params: appliedenergistics2, item.ItemFacade, 1138
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 override called. Params: extracells, pattern.fluid, 0
